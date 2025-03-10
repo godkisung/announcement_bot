@@ -70,5 +70,5 @@ async def main():
             f.write(new_hash + "\n")
 
 if __name__ == "__main__":
-    bot = telegram.Bot(token, request_timeout=100)  # 타임아웃 설정
+    bot = telegram.Bot(token)
     asyncio.run(main())
