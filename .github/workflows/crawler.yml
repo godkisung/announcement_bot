@@ -2,7 +2,7 @@ name: Run Crawler Every 4 Hours
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # 4시간마다 실행 (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    - cron: '0 */4 * * *'  # 4시간마다 실행
   workflow_dispatch:  # 수동 실행 옵션
 
 jobs:
